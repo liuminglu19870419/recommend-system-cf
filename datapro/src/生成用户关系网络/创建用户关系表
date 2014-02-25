@@ -1,0 +1,8 @@
+CREATE TABLE `test`.`userrel10` (
+  `email` VARCHAR(200) NOT NULL,
+  `emailrel` VARCHAR(200) NOT NULL,
+  `count` INT NOT NULL,
+  INDEX `emailIndex` (`email` ASC))
+ENGINE = MyISAM;
+
+
